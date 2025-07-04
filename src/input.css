@@ -1,18 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Inter:600);
 
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
-*,
-*:before,
-*::after {
-    -webkit-box-sizing: content-box;
-    box-sizing: border-box;
-}
+@import "tailwindcss";
 
 html,
 body {
@@ -24,52 +13,6 @@ body {
     font-size: 100%;
     background-color: #f8f8f8;
     font-size: 16px;
-}
-
-input,
-button,
-textarea {
-    font-family: inherit;
-}
-
-input::-ms-clear {
-    display: none;
-}
-
-button {
-    cursor: pointer;
-}
-
-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
-}
-
-a,
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-ul li {
-    list-style: none;
-}
-
-img {
-    vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: inherit;
-    font-weight: 400;
 }
 
 ._ibg {
@@ -97,4 +40,16 @@ h6 {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+}
+
+@theme {
+    --font-inter: "Inter";
+    --font-tt: "Inter";
+    --color-blue: #2B48F1;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-semi-black: #020202;
+    --color-gray: #3C3C3A;
+    --color-light-blue: #E8F1FF;
+    --padding-block: 110px 0px;
 }
