@@ -1,28 +1,893 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/output.css">
     <title>Дары мебели</title>
 </head>
+
 <body>
     <div class="wrap">
+        <header class="py-4 bg-light-blue">
+            <div class="_container flex items-center justify-between gap-5 flex-wrap">
+                <div class="m-auto">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="flex items-center gap-[40px] m-auto max-sm:gap-5">
+                    <div class="flex items-center gap-1">
+                        <p class="text-semi-black font-medium text-[18px] max-sm:text-[16px]">О нас</p>
+                        <img src="./images/icons/down-arrow.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-semi-black font-medium text-[18px] max-sm:text-[16px]">Для вас</p>
+                        <img src="./images/icons/down-arrow.svg" alt="">
+                    </div>
+                    <p class="text-semi-black font-medium text-[18px] max-sm:text-[16px]">Контакты</p>
+                    <div class="font-semibold text-semi-black max-sm:hidden">
+                        <p>+7 (495) 920-48-24</p>
+                        <p>8 (800) 234-90-84</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-5 m-auto">
+                    <div class="flex items-center gap-3">
+                        <img src="./images/icons/map.svg" alt="">
+                        <p class="text-semi-black font-medium">г. Москва</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons/phone.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/icons/shop.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/icons/hear-header.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/icons/chart-header.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
         <main>
-            <section class="py-block">
-                <div class="_container">
-                    <h2 class="font-bold text-[28px] text-semi-black mb-[50px] underline">Раздел категорий</h2>
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <img src="./images/categories/category_1.png" alt="">
+            <div class="pt-[12px]">
+                <div class="flex mb-[24px] justify-center flex-col xl:justify-normal xl:flex-row _container">
+                    <input
+                        class="xl:min-w-[600px] font-normal text-base text-[#7d838a] pt-[17px] pb-[17px] pl-[26px] rounded-[6px_0_0_6px] bg-[#f1f1f1] mb-[10px] xl:mb-0"
+                        type="text" placeholder="Поиск" />
+                    <div
+                        class="flex gap-[22px] rounded-[0_6px_6px_0] bg-[#2b48f1] pt-[17px] pr-[24px] pb-[17px] pl-[33px] items-center cursor-pointer w-[inherit] mx-auto xl:mx-0 xl:w-[inherit]">
+                        <p class="font-medium text-base text-[#fdfdfd]">Каталог</p>
+                        <div>
+                            <img src="images/icons/menu-burger.svg" alt="menu" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="pt-[60px] pb-[120px] max-md:py-mobile">
+                <div class="_container flex items-center justify-between flex-wrap gap-10">
+                    <div class="m-auto">
+                        <h1 class="font-bold text-4xl mb-5 max-w-[590px] max-sm:text-lg max-sm:text-center">Офисная мебель по оптовым ценам от ООО Дары
+                            мебели</h1>
+                        <div class="flex items-center gap-3 mb-[54px] max-sm:flex-col">
+                            <div class="button">Заказ дизайн-проекта</div>
+                            <div class="cursor-pointer py-[16px] px-[43px] border-3 border-blue rounded-main">
+                                <a href="" class="button-border-text">Выезд консультанта</a>
                             </div>
-                            <p class="">Кабинеты руководителей</p>
+                        </div>
+                        <div class="flex flex-wrap gap-5 max-w-[500px] m-auto">
+                            <div
+                                class="flex items-center gap-1 rounded-main p-[14px] border-1 border-[#e4e4e4] flex-1/2 max-w-[240px] m-auto">
+                                <div>
+                                    <img src="./images/icons/why/person.svg" alt="">
+                                </div>
+                                <p class="font-medium text-semi-black">Выезд менеджера бесплатно</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 rounded-main p-[14px] border-1 border-[#e4e4e4] max-w-[240px] m-auto">
+                                <div>
+                                    <img src="./images/icons/why/car.svg" alt="">
+                                </div>
+                                <p class="font-medium text-semi-black">Экспресс-доставка в подарок</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 rounded-main p-[14px] border-1 border-[#e4e4e4] max-w-[240px] m-auto">
+                                <div>
+                                    <img src="./images/icons/why/objects.svg" alt="">
+                                </div>
+                                <p class="font-medium text-semi-black">Более 100 000 моделей</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 rounded-main p-[14px] border-1 border-[#e4e4e4] max-w-[240px] m-auto">
+                                <div>
+                                    <img src="./images/icons/why/ruler.svg" alt="">
+                                </div>
+                                <p class="font-medium text-semi-black">Дизайн-проект бесплатно</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-auto">
+                        <img src="./images/room.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="py-block max-md:py-mobile">
+                <div class="_container">
+                    <h2 class="title">Раздел категорий</h2>
+                    <div class="flex flex-wrap gap-5 max-md:justify-center max-md:gap-2">
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_1.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Кабинеты руководителей
+                            </p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_2.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Мебель для персонала
+                            </p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_3.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Столы для переговоров
+                            </p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_4.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Стойки ресепшн</p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_5.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Офисные диваны</p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_6.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Офисные столы</p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_7.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Офисные тумбы</p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_8.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Офисные шкафы</p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_9.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Офисные кресла</p>
+                        </div>
+                        <div class="rounded-main bg-white p-[32px] max-md:w-[155px] max-md:p-[15px]">
+                            <div class="mb-[8px]">
+                                <img src="./images/categories/category_10.png" class="max-md:max-w-[130px]" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] max-md:text-[14px] text-semi-black">Офисные стулья</p>
                         </div>
                     </div>
                 </div>
             </section>
+            <section class="py-block max-md:py-mobile">
+                <div class="_container">
+                    <h2 class="title">Почему стоит выбрать нас</h2>
+                    <div class="flex flex-wrap gap-5 max-sm:gap-2 max-md:flex-col max-md:justify-center">
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] flex-1/4 py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/percent.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">При заказе через сайт
+                                дополнительная скидка -5%</p>
+                        </div>
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/mark.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">Качественая гарантия от
+                                производителя на 12 месяцев
+                            </p>
+                        </div>
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/box.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">Работаем по всей России отправляем
+                                любыми ТК</p>
+                        </div>
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/sofa.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">Подготовим 3D-проект вашего офиса
+                                бесплатно</p>
+                        </div>
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/laptop.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">Удобные условия покупки как с ПК,
+                                так и с ОО</p>
+                        </div>
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/tools.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">Сборка мебели (оговаривается с
+                                продавцом)</p>
+                        </div>
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/car.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">Экспресс-доставка. Доставка на
+                                следующий день</p>
+                        </div>
+                        <div
+                            class="flex items-center gap-[8px] rounded-main border-1 border-[#e4e4e4] py-7 px-4 max-w-[340px] max-md:m-auto">
+                            <div>
+                                <img src="./images/icons/why/person.svg" class="max-w-none" alt="">
+                            </div>
+                            <p class="text-semi-black font-medium max-md:text-[12px]">На рынке уже много лет, наши
+                                сотрудники профессионалы
+                                своего дела</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-block max-md:py-mobile">
+                <div class="_container">
+                    <div
+                        class="bg-white rounded-xl py-[60px] px-[120px] flex items-start justify-between flex-wrap gap-6 max-md:px-5 max-md:py-7">
+                        <div class="flex flex-col m-auto">
+                            <h3 class="title">Наши клиенты</h3>
+                            <div class="flex flex-wrap gap-3 mb-6 max-w-[370px]">
+                                <div
+                                    class="flex items-center justify-center w-[179px] h-[110px] rounded-main border-1 border-[#e4e4e4] flex-1/3">
+                                    <img src="./images/banks/sber.png" alt="">
+                                </div>
+                                <div
+                                    class="flex items-center justify-center w-[179px] h-[110px] rounded-main border-1 border-[#e4e4e4] flex-1/3">
+                                    <img src="./images/banks/huawey.png" alt="">
+                                </div>
+                                <div
+                                    class="flex items-center justify-center w-[179px] h-[110px] rounded-main border-1 border-[#e4e4e4] flex-1/3 max-sm:hidden">
+                                    <img src="./images/banks/rosneft.png" alt="">
+                                </div>
+                                <div
+                                    class="flex items-center justify-center w-[179px] h-[110px] rounded-main border-1 border-[#e4e4e4] flex-1/3 max-sm:hidden">
+                                    <img src="./images/banks/rosbank.png" alt="">
+                                </div>
+                                <div
+                                    class="flex items-center justify-center w-[179px] h-[110px] rounded-main border-1 border-[#e4e4e4] flex-1/3 max-sm:hidden">
+                                    <img src="./images/banks/sk.png" alt="">
+                                </div>
+                                <div
+                                    class="flex items-center justify-center w-[179px] h-[110px] rounded-main border-1 border-[#e4e4e4] flex-1/3 max-sm:hidden">
+                                    <img src="./images/banks/gasprom.png" alt="">
+                                </div>
+                            </div>
+                            <div class="rounded-4xl py-[15px] px-[48px] border-1 border-blue m-auto inline-flex">
+                                <a href="" class="text-blue font-semibold">Смотреть всех клиентов</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col m-auto">
+                            <h3 class="title">Благодарственные письма</h3>
+                            <div class="flex items-center gap-[17px] mb-[33px]">
+                                <div>
+                                    <img src="./images/documents/document-1.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="./images/documents/document-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="rounded-4xl py-[15px] px-[48px] border-1 border-blue m-auto inline-flex">
+                                <a href="" class="text-blue font-semibold text-center">Смотреть все письма</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-block max-md:py-mobile max-md:hidden">
+                <div class="_container flex flex-wrap gap-5 justify-center">
+                    <div class="flex-1/2 max-w-[700px]">
+                        <h3 class="mb-[11px] text-[28px] font-bold">Офисная мебель в ассортименте</h3>
+                        <div class="">
+                            <p class="mb-5">
+                                Рабочие помещения должны быть обустроены не только модно и красиво, но и удобно для
+                                сотрудников, посетителей. Собираясь купить офисную мебель в Москве от производителя,
+                                руководители маленьких и крупных компаний ставят перед собой примерно одинаковые задачи.
+                                Первая и самая главная – создать атмосферу, располагающую к работе, не отвлекающую от
+                                важных вопросов. Дополнительно нужно предусмотреть возможность периодического отдыха,
+                                чтобы избежать переутомления.
+                            </p>
+                            <p class="mb-5">
+                                Офисная мебель должна настраивать на рабочий лад и повышать продуктивность персонала.
+                                Важно создать помещение, куда сотрудники будут приходить с удовольствием, где на
+                                протяжении всего дня не станут испытывать дискомфорт. Количество единиц в комплекте и их
+                                назначение отличаются в зависимости от концепции самой фирмы, размеров офиса, числа
+                                работников.Какие есть разновидности
+                            </p>
+                            <p>
+                                Офисные гарнитуры бывают стандартные и специализированные. Первые присутствуют всегда,
+                                независимо от вида деятельности организации и прочих моментов. Так, для каждого рабочего
+                                помещения необходимы:
+                            </p>
+                            <ul class="list-disc pl-3">
+                                <li class="pl-3">
+                                    столы. Обычно покупаются отдельно для работников: если площадь позволяет, тогда
+                                    каждому, если нет, то один длинный на всех. Также необходимы столы в кабинет
+                                    руководителя и в приемную;
+                                </li>
+                                <li class="pl-3">
+                                    кресла, стулья. При их выборе берутся во внимание особенности места, где они
+                                    располагаются. Закупаются для директора, персонала, клиентов, посетителей;
+                                </li>
+                                <li class="pl-3">
+                                    диваны. Их покупают не всегда. Все зависит от особенностей работы компании, от того,
+                                    проводит ли она личные встречи с клиентами, от площади самого офиса;
+                                </li>
+                                <li class="pl-3">
+                                    тумбочки, шкафы, стеллажи. Они обязательны для хранения документации, отдельных
+                                    частей оргтехники, личных вещей сотрудников.
+                                </li>
+                            </ul>
+                            <p>
+                                Офисная мебель должна сочетаться между собой, то есть, могут покупаться разные части
+                                гарнитура, но обязательно выполненные в едином стиле. Важно, чтобы в итоге создалась
+                                гармоничная и красивая обстановка, способствующая эффективности, продуктивности
+                                и развитию рабочего процесса
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex-1/2 max-w-[700px]">
+                        <h3 class="mb-[11px] text-[28px] font-bold">Для персонала</h3>
+                        <div class="">
+                            <p class="mb-5">
+                                Всем, кому нужна офисная мебель от производителя, интернет-магазин ООО «Дары мебели»
+                                предлагает разнообразные варианты, отличающиеся по стилю, исполнению, цене. В любой
+                                организации важно создать простое и лаконичное рабочее пространство, где не будет места
+                                ненужным, отвлекающим предметам, вещам. Смелые эксперименты не всегда допустимы, ведь
+                                человек должен не только чувствовать себя хорошо, но и быть сосредоточенным на рабочих
+                                обязанностях.
+                            </p>
+                            <p class="mb-5">
+                                Некоторые руководители в стремлении выделиться делают ошибку, отдавая предпочтение
+                                слишком эксклюзивным предложениям от креативных дизайнеров. Они действительно смотрятся
+                                привлекательно и украшают помещение, но в то же время отвлекают от главного. Такая
+                                обстановка допустима только там, где работа предполагает творческий процесс. Но и в
+                                таком случае не стоит слишком увлекаться экспериментами.
+                            </p>
+                            <p>
+                                Интернет-магазин ООО «Дары мебели» в Москве позволит подобрать и аксессуары для создания
+                                цельной, согласованной обстановки. Для этого можно использовать картины с абстракциями,
+                                фотографии в рамочках, статуэтки. Разбавляют строгость обстановки и дополнительно
+                                повышают количество кислорода в помещении комнатные растения. Поэтому они должны
+                                присутствовать обязательно.
+                            </p>
+                            <p>При выборе есть несколько нюансов:</p>
+                            <ul class="list-disc pl-3">
+                                <li class="pl-3">
+                                    кресла и стулья должны способствовать правильному формированию осанки, особенно при
+                                    сидячей работе. Иначе уже через несколько часов человек будет страдать от боли в
+                                    спине и плечах;
+                                </li>
+                                <li class="pl-3">
+                                    стол желательно компьютерный, со всеми выемками и приспособлениями под мышку с
+                                    клавиатурой, системный блок, колонки;
+                                </li>
+                                <li class="pl-3">
+                                    шкафы и стеллажи нужно разместить так, чтобы каждому было удобно ими пользоваться, и
+                                    они не загромождали пространство.
+                                </li>
+                            </ul>
+                            <p>Высота полок подбирается в зависимости от размеров папок.</p>
+                        </div>
+                    </div>
+                    <div class="flex-1/2 max-w-[700px]">
+                        <h3 class="mb-[11px] text-[28px] font-bold">Для руководителя</h3>
+                        <div class="">
+                            <p class="mb-5">
+                                В кабинете директора дизайнерская дорогая мебель будет вполне уместна. Это ключевое
+                                место в компании, ведь там ведутся переговоры, принимаются важные решения, проводятся
+                                встречи с партнерами. Гарнитур у руководителя должен подчеркивать его высокий статус,
+                                выглядеть солидно и дорого.
+                            </p>
+                            <p>
+                                Прежде чем купить мебель в офис для кабинета директора, нужно учесть несколько моментов:
+                            </p>
+                            <ul class="list-disc pl-3">
+                                <li class="pl-3">
+                                    удобное, регулируемое по высоте кресло с подлокотниками и высокой спинкой;
+                                </li>
+                                <li class="pl-3">
+                                    стол массивный, но в меру, чтобы человек за ним не смотрелся нелепо, не казался
+                                    маленьким. Лучше выбирать модели из натурального массива дерева;
+                                </li>
+                                <li class="pl-3">
+                                    мебель должна быть такой, чтобы во время переговоров руководитель казался ближе к
+                                    собеседнику. Не допускается слишком большое разделение.
+                                </li>
+                            </ul>
+                            <p>
+                                Цены на офисную мебель в Москве разные, но гарнитур для кабинета руководителя обычно
+                                самый дорогой, потому что он должен смотреться статусно, иметь отличное качество.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex-1/2 max-w-[700px]">
+                        <h3 class="mb-[11px] text-[28px] font-bold">Для посетителей</h3>
+                        <div class="">
+                            <p class="mb-5">
+                                Люди, которые приходят в офис для встреч с директором или сотрудниками, обычно имеют к
+                                ним важные вопросы, поэтому волнуются. Особенно если это соискатели, пришедшие на
+                                собеседование. Потому мебель в приемной, где находятся посетители, должна производить
+                                приятное впечатление, успокаивать и расслаблять.
+                            </p>
+                            <p>
+                                Всегда следует заботиться о комфорте гостя, чтобы ему было удобно сидеть. Избегайте в
+                                приемной ставить жесткие стулья. Лучше обустроить ее мягкими и удобными креслами или
+                                диванчиками со спинками.Продажа мебели с доставкой и сборкойПокупка офисной мебели в ООО
+                                «Дары мебели»Цена в магазине офисной мебели ООО «Дары мебели» может включать доставку с
+                                установкой. Стоимость зависит от региона, общего веса и размеров заказа. Если масса не
+                                превышает 20 кг, а минимальная цена покупки составит 500 руб., мы привезем вам мебель
+                                бесплатно.Для веса 20–900 кг оплата по стандартному тарифу. Когда нужно доставить более
+                                габаритные и тяжелые вещи, цена рассчитывается индивидуально. По Москве и области грузы
+                                доставляются с понедельника по пятницу. Заказ привозим прямо к подъезду. Если ваша
+                                территория охраняемая, тогда нужно заранее обеспечить доступ нашим специалистам.
+                                Сообщите предварительно, если нужно поднять мебель на этаж, собрать и расставить.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-block max-md:py-mobile">
+                <div class="_container">
+                    <h2 class="title">Лучшие товары</h2>
+                    <div class="flex gap-5 flex-wrap justify-center">
+                        <div class="bg-white rounded-main px-[30px] py-[37px]">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-1.png" class="m-auto" alt="">
+                            </div>
+                            <p
+                                class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px] max-sm:text-[16px]">
+                                Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-main px-[30px] py-[37px]">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-2.png" class="m-auto" alt="">
+                            </div>
+                            <p class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px]">Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-main px-[30px] py-[37px]">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-3.png" class="m-auto" alt="">
+                            </div>
+                            <p class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px]">Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-main px-[30px] py-[37px]">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-4.png" class="m-auto" alt="">
+                            </div>
+                            <p class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px]">Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-main px-[30px] py-[37px] max-md:hidden">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-5.png" class="m-auto" alt="">
+                            </div>
+                            <p class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px]">Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-main px-[30px] py-[37px] max-md:hidden">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-6.png" class="m-auto" alt="">
+                            </div>
+                            <p class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px]">Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-main px-[30px] py-[37px] max-md:hidden">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-7.png" class="m-auto" alt="">
+                            </div>
+                            <p class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px]">Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-main px-[30px] py-[37px] max-md:hidden">
+                            <div class="mb-[16px] text-center">
+                                <img src="./images/chairs/chair-8.png" class="m-auto" alt="">
+                            </div>
+                            <p class="text-semi-black text-[21px] font-medium mb-[6px] max-w-[248px]">Кресло
+                                руководителя GY-330 (ГУ-330)</p>
+                            <div class="w-5 h-5 text-semi-black rounded-[4px] mb-[12px]"></div>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[#3c3c3c] line-through">13 552 руб.</span>
+                                    <span class="text-semi-black text-[21px] font-bold">12 467 ₽</span>
+                                </div>
+                                <div class="flex items-center gap-[8px]">
+                                    <img src="./images/icons/heart.svg" alt="">
+                                    <img src="./images/icons/chart.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="button-border">
+                                <a href="" class="button-border-text">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-block max-md:py-mobile">
+                <div class="_container">
+                    <h2 class="title underline">Наши работы</h2>
+                    <div class="flex items-center gap-5 mb-[50px] flex-wrap justify-center">
+                        <div class="rounded-main px-[37px] pt-[24px] pb-[50px] bg-white max-sm:p-[24px]">
+                            <div class="mb-[12px]">
+                                <img src="./images/cab.png" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] text-semi-black font-tt max-w-[240px] max-sm:text-[21px]">
+                                Кабинет
+                                руководителя Персио</p>
+                        </div>
+                        <div class="rounded-main px-[37px] pt-[24px] pb-[50px] bg-white max-sm:hidden">
+                            <div class="mb-[12px]">
+                                <img src="./images/cab.png" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] text-semi-black font-tt max-w-[240px]">Кабинет
+                                руководителя Персио</p>
+                        </div>
+                        <div class="rounded-main px-[37px] pt-[24px] pb-[50px] bg-white max-sm:hidden">
+                            <div class="mb-[12px]">
+                                <img src="./images/cab.png" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] text-semi-black font-tt max-w-[240px]">Кабинет
+                                руководителя Персио</p>
+                        </div>
+                        <div class="rounded-main px-[37px] pt-[24px] pb-[50px] bg-white max-sm:hidden">
+                            <div class="mb-[12px]">
+                                <img src="./images/cab.png" alt="">
+                            </div>
+                            <p class="font-medium text-[21px] text-semi-black font-tt max-w-[240px]">Кабинет
+                                руководителя Персио</p>
+                        </div>
+                    </div>
+                    <div class="flex max-sm:hidden">
+                        <div class="button m-auto">Смотреть все работы</div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-block max-md:py-mobile">
+                <div class="_container">
+                    <h2 class="title">Отзывы покупателей</h2>
+                    <div class="flex items-center gap-5">
+                        <div class="rounded-main bg-white py-9 px-11">
+                            <span class="text-[#3c3c3c] text-sm mb-[4px]">17.10.24</span>
+                            <p class="text-semi-black mb-6">
+                                Давно мечтала обновить мебель в ванной, и нашла отличный вариант на Дары мебели!
+                                Огромный выбор, глаза разбегаются! Нашла именно то, что искала - красивую и
+                                функциональную тумбу с раков
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-semi-black font-semibold">Ирина</span>
+                                <div class="flex items-center gap-[2px]">
+                                    <img src="./images/stars.png" alt="">
+                                    <span class="text-sm text-semi-black">5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rounded-main bg-white py-9 px-11 max-sm:hidden">
+                            <span class="text-[#3c3c3c] text-sm mb-[4px]">17.10.24</span>
+                            <p class="text-semi-black mb-6">
+                                Давно мечтала обновить мебель в ванной, и нашла отличный вариант на Дары мебели!
+                                Огромный выбор, глаза разбегаются! Нашла именно то, что искала - красивую и
+                                функциональную тумбу с раков
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-semi-black font-semibold">Ирина</span>
+                                <div class="flex items-center gap-[2px]">
+                                    <img src="./images/stars.png" alt="">
+                                    <span class="text-sm text-semi-black">5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rounded-main bg-white py-9 px-11 max-md:hidden">
+                            <span class="text-[#3c3c3c] text-sm mb-[4px]">17.10.24</span>
+                            <p class="text-semi-black mb-6">
+                                Давно мечтала обновить мебель в ванной, и нашла отличный вариант на Дары мебели!
+                                Огромный выбор, глаза разбегаются! Нашла именно то, что искала - красивую и
+                                функциональную тумбу с раков
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-semi-black font-semibold">Ирина</span>
+                                <div class="flex items-center gap-[2px]">
+                                    <img src="./images/stars.png" alt="">
+                                    <span class="text-sm text-semi-black">5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-block max-md:py-mobile">
+                <div class="_container">
+                    <h2 class="title">Бренды и торговые марки</h2>
+                    <div class="flex items-center justify-center gap-[70px] flex-wrap max-sm:flex-nowrap max-sm:gap-3">
+                        <div>
+                            <img src="./images/brends/riva.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./images/brends/alsav.png">
+                        </div>
+                        <div class="max-sm:hidden">
+                            <img src="./images/brends/groox.png">
+                        </div>
+                        <div class="max-md:hidden">
+                            <img src="./images/brends/mvk.png">
+                        </div>
+                        <div class="max-md:hidden">
+                            <img src="./images/brends/gdb.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="pb-[110px]">
+                <div class="max-w-[862px] m-auto py-block max-md:py-mobile">
+                    <div class="border-3 border-blue rounded-[50px] px-[75px] py-[24px] max-md:p-[30px] max-sm:p-5">
+                        <p
+                            class="text-[18px] text-center text-blue font-semibold max-md:text-[16px] max-sm:text-[14px]">
+                            Благотворительный фонд, БФ "Дары добра". Часть средств от продажи офисной мебели оптом
+                            перечисляются
+                            на благотворительность.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </main>
+        <footer class="py-block bg-[#E8F1FF] pb-[23px]">
+            <div class="_container">
+                <div class="flex mb-[50px] flex-col xl:flex-row">
+                    <div class="2xl:mr-[81px] mx-auto mr-[none] mb-[30px]">
+                        <div class="mb-[20px]">
+                            <img src="images/footer/logo.png" alt="logo" />
+                        </div>
+                        <div class="flex gap-[4px] mb-[25px]">
+                            <div>
+                                <img src="images/footer/phone.svg" alt="phone" />
+                            </div>
+                            <div>
+                                <p class="mb-[2px] font-semibold text-base text-gray-900">+7 (495) 920-48-24</p>
+                                <p class="mb-[2px] font-semibold text-base text-gray-900">8 (800) 234-90-84</p>
+                                <p class="font-medium text-lg text-gray-500">Пн-Пт с 09:00 до 19:00</p>
+                            </div>
+                        </div>
+                        <div class="button !w-[278px] !pt-[16px] !pb-[16px] !pl-[69px] !pr-[65px]">
+                            <a href="">Заказать звонок</a>
+                        </div>
+                        <div class="button-border mt-[20px] max-w-[278px] pt-[16px] pb-[16px] !px-[0px] !pl-[40px]">
+                            <a class="button-border-text" href="">Выезд консультанта</a>
+                        </div>
+                    </div>
+                    <div class="2xl:mr-[111px] mx-auto mr-[none] mb-[30px]">
+                        <h3 class="font-bold text-xl uppercase text-gray-800 mb-[11px]">контакты</h3>
+                        <div class="flex gap-[8px] mb-[9px]">
+                            <div>
+                                <img src="images/footer/mark.svg" alt="mark" />
+                            </div>
+                            <p class="font-medium text-base text-gray-900 max-w-[196px]">
+                                Адрес: г.Москва, Наб.Космодамианская, д.4/22,к.Б,помещ.8Н
+                            </p>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <div>
+                                <img src="images/footer/email.svg" alt="email" />
+                            </div>
+                            <div>
+                                <p class="font-medium text-base text-gray-900">
+                                    <span class="font-medium text-base text-gray-500">Для заказа:</span> <br />
+                                    zakaz@mebelioni.ru
+                                </p>
+                                <p class="font-medium text-base text-gray-900 mb-[11px]">
+                                    <span class="font-medium text-base text-gray-500">Для информации:</span> <br />
+                                    info@mebelioni.ru
+                                </p>
+                                <div class="flex gap-[12px] flex-wrap max-w-[144px]">
+                                    <div class="cursor-pointer">
+                                        <img src="images/footer/twitter.svg" alt="twitter" />
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="images/footer/vk.svg" alt="vk" />
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="images/footer/facebook.svg" alt="twitter" />
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="images/footer/telegram.svg" alt="telegram" />
+                                    </div>
+                                    <div class="cursor-pointer">
+                                        <img src="images/footer/whatsapp.svg" alt="whatsapp" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="2xl:mr-[77px] mx-auto mr-[none] mb-[30px]">
+                        <h3 class="font-bold text-xl uppercase text-gray-800 mb-[11px]">ТОВАРЫ</h3>
+                        <div class="flex gap-[27px]">
+                            <div>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Кабинеты руководителя
+                                </p>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Мебель для персонала
+                                </p>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Столы для переговоров
+                                </p>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Ресепшн
+                                </p>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Офисные диваны
+                                </p>
+                            </div>
+                            <div>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Офисные столы
+                                </p>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Офисные шкафы
+                                </p>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Офисные кресла
+                                </p>
+                                <p
+                                    class="font-medium text-lg text-gray-800 mb-[8px] cursor-pointer hover:text-gray-500">
+                                    Офисные стулья
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-auto mr-[none] mb-[40px]">
+                        <h2 class="font-bold text-xl uppercase text-gray-800 mb-[11px]">Карта сайта</h2>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-normal text-base text-gray-900 text-center">
+                        © 2025 Все права защищены. Информация сайта защищена законом об авторских правах.
+                    </p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>

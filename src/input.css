@@ -15,6 +15,10 @@ body {
     font-size: 16px;
 }
 
+/* img {
+    max-width: none;
+} */
+
 ._ibg {
     position: relative;
 }
@@ -42,14 +46,72 @@ body {
     min-height: 100%;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--color-semi-black);
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+.button {
+    background-color: var(--color-blue);
+    border-radius: var(--radius-main);
+    color: var(--color-white);
+    font-weight: 500;
+    display: inline;
+    padding: 16px 50px 16px 50px;
+    border: 3px solid var(--color-blue);
+}
+
+.button-border {
+    cursor: pointer;
+    padding: 16px 84px 16px 84px;
+    border-radius: var(--radius-main);
+    border: 3px solid var(--color-blue);
+}
+
+.button-border-text {
+    color: var(--color-blue);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 21px;
+    }
+
+    .button-border {
+        padding: 8px 25px;
+        text-align: center;
+    }
+}
+
+.button:hover {
+  background-color: #243cc4;
+}
+
+.button-border:hover {
+  background-color: rgb(223, 223, 223);
+}
+
 @theme {
     --font-inter: "Inter";
     --font-tt: "Inter";
     --color-blue: #2B48F1;
-    --color-white: #fff;
+    --color-white: #fdfdfd;
     --color-black: #000;
     --color-semi-black: #020202;
     --color-gray: #3C3C3A;
     --color-light-blue: #E8F1FF;
     --padding-block: 110px 0px;
+    --padding-mobile: 80px 0px;
+    --radius-main: 6px;
 }
